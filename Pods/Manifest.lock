@@ -1,0 +1,13 @@
+PODS:
+  - HTChineseHandle (1.0.0)
+  - SVProgressHUD (2.0.3)
+
+DEPENDENCIES:
+  - HTChineseHandle (~> 1.0.0)
+  - SVProgressHUD (~> 2.0.3)
+
+SPEC CHECKSUMS:
+  HTChineseHandle: b68bdd6b77c29678e31c89ac940cbf931ff5cebf
+  SVProgressHUD: b0830714205bea1317ea1a2ebc71e5633af334d4
+
+COCOAPODS: 0.39.0

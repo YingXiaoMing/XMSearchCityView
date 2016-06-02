@@ -7,8 +7,9 @@
 //
 
 #import "ViewController.h"
-
+#import "PickCityViewController.h"
 @interface ViewController ()
+@property(nonatomic,strong)UIButton *titleBtn;
 
 @end
 
@@ -16,12 +17,28 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    self.view.backgroundColor = [UIColor whiteColor];
+    self.title = @"主页";
+    UIButton *titleBtn = [UIButton buttonWithType:UIButtonTypeCustom];
+    [titleBtn setTitle:@"当前城市: 北京" forState:UIControlStateNormal];
+    titleBtn.frame = CGRectMake(0, 0, 160, 40);
+    titleBtn.center = self.view.center;
+    [titleBtn addTarget:self action:@selector(btnClick) forControlEvents:UIControlEventTouchUpInside];
+    titleBtn.backgroundColor = [UIColor grayColor];
+    self.titleBtn = titleBtn;
+    [self.view addSubview:titleBtn];
+    [[NSNotificationCenter defaultCenter]addObserver:self selector:@selector(cityNameClick:) name:@"keyCityBtnClick" object:nil];
+    
 }
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+-(void)btnClick
+{
+    PickCityViewController *pickVC = [[PickCityViewController alloc]init];
+    [self.navigationController pushViewController:pickVC animated:YES];
+}
+-(void)cityNameClick:(NSNotification *)noti
+{
+    NSString *cityName = noti.userInfo[@"keyCityBtnClick"];
+    [self.titleBtn setTitle:cityName forState:UIControlStateNormal];
 }
 
 @end

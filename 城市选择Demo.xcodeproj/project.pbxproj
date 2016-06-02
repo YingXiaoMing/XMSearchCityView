@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		60B6400867D349DB1C2072E7 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D0DB40F0BE9892F1C79EC984 /* libPods.a */; };
+		FC3F4DAF1CFE6B2F001435DA /* AllCityName in Resources */ = {isa = PBXBuildFile; fileRef = FC3F4DAE1CFE6B2F001435DA /* AllCityName */; };
+		FC3F4DEE1CFE92A8001435DA /* PickOverseaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC3F4DED1CFE92A8001435DA /* PickOverseaViewController.m */; };
+		FC3F4DF01CFE93AE001435DA /* outLandCityGroup.plist in Resources */ = {isa = PBXBuildFile; fileRef = FC3F4DEF1CFE93AE001435DA /* outLandCityGroup.plist */; };
+		FC3F4DF31CFED430001435DA /* LocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FC3F4DF21CFED430001435DA /* LocationManager.m */; };
+		FC3F4DF51CFEDE08001435DA /* AllCityID in Resources */ = {isa = PBXBuildFile; fileRef = FC3F4DF41CFEDE08001435DA /* AllCityID */; };
+		FC85C9991CFD1BD80026F436 /* HotCityCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FC85C9981CFD1BD80026F436 /* HotCityCell.m */; };
+		FC85C99B1CFD1ED30026F436 /* hotcityCode.plist in Resources */ = {isa = PBXBuildFile; fileRef = FC85C99A1CFD1ED30026F436 /* hotcityCode.plist */; };
+		FC85C99E1CFD20CE0026F436 /* HotCityMode.m in Sources */ = {isa = PBXBuildFile; fileRef = FC85C99D1CFD20CE0026F436 /* HotCityMode.m */; };
+		FC85C9A11CFD40A30026F436 /* YLYTableViewIndexView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC85C9A01CFD40A30026F436 /* YLYTableViewIndexView.m */; };
+		FCA6AD281CFD80C200F240CE /* SearchCityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCA6AD271CFD80C200F240CE /* SearchCityViewController.m */; };
+		FCA6AD2B1CFD82AA00F240CE /* XMSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = FCA6AD2A1CFD82AA00F240CE /* XMSearchBar.m */; };
 		FCFAC46B1CFBD8C600642DA0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFAC46A1CFBD8C600642DA0 /* main.m */; };
 		FCFAC46E1CFBD8C600642DA0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFAC46D1CFBD8C600642DA0 /* AppDelegate.m */; };
 		FCFAC4711CFBD8C600642DA0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFAC4701CFBD8C600642DA0 /* ViewController.m */; };
@@ -15,6 +27,24 @@
 		FCFAC4791CFBD8C600642DA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCFAC4771CFBD8C600642DA0 /* LaunchScreen.storyboard */; };
 		FCFAC4841CFBD8C600642DA0 /* ____DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFAC4831CFBD8C600642DA0 /* ____DemoTests.m */; };
 		FCFAC48F1CFBD8C600642DA0 /* ____DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFAC48E1CFBD8C600642DA0 /* ____DemoUITests.m */; };
+		FCFAC49E1CFBDB9D00642DA0 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFAC49D1CFBDB9D00642DA0 /* BaseViewController.m */; };
+		FCFAC4A11CFBE22500642DA0 /* PickCityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFAC4A01CFBE22500642DA0 /* PickCityViewController.m */; };
+		FCFAC4A41CFC09BB00642DA0 /* PickChinaCityController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFAC4A31CFC09BB00642DA0 /* PickChinaCityController.m */; };
+		FCFAC4A61CFC0CA400642DA0 /* inLandCityGroup.plist in Resources */ = {isa = PBXBuildFile; fileRef = FCFAC4A51CFC0CA400642DA0 /* inLandCityGroup.plist */; };
+		FCFAC4C91CFC211800642DA0 /* CityIndexCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFAC4C81CFC211800642DA0 /* CityIndexCell.m */; };
+		FCFAC4E51CFC247800642DA0 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FCFAC4CB1CFC247800642DA0 /* Info.plist */; };
+		FCFAC4E61CFC247800642DA0 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFAC4CD1CFC247800642DA0 /* MASCompositeConstraint.m */; };
+		FCFAC4E71CFC247800642DA0 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFAC4D01CFC247800642DA0 /* MASConstraint.m */; };
+		FCFAC4E81CFC247800642DA0 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFAC4D21CFC247800642DA0 /* MASConstraintMaker.m */; };
+		FCFAC4E91CFC247800642DA0 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFAC4D41CFC247800642DA0 /* MASLayoutConstraint.m */; };
+		FCFAC4EA1CFC247800642DA0 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFAC4D81CFC247800642DA0 /* MASViewAttribute.m */; };
+		FCFAC4EB1CFC247800642DA0 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFAC4DA1CFC247800642DA0 /* MASViewConstraint.m */; };
+		FCFAC4EC1CFC247800642DA0 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFAC4DC1CFC247800642DA0 /* NSArray+MASAdditions.m */; };
+		FCFAC4ED1CFC247800642DA0 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFAC4DF1CFC247800642DA0 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		FCFAC4EE1CFC247800642DA0 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFAC4E11CFC247800642DA0 /* View+MASAdditions.m */; };
+		FCFAC4EF1CFC247800642DA0 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFAC4E41CFC247800642DA0 /* ViewController+MASAdditions.m */; };
+		FCFAC4F21CFC2F2000642DA0 /* sectionHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFAC4F11CFC2F2000642DA0 /* sectionHeadView.m */; };
+		FCFAC4F51CFC35F400642DA0 /* LocationCityCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFAC4F41CFC35F400642DA0 /* LocationCityCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +65,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		018387DFDFD3687FE61BFEFD /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		D0DB40F0BE9892F1C79EC984 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8D6CB71E9FEB6A12A6160BF /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		FC3F4DAE1CFE6B2F001435DA /* AllCityName */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = AllCityName; path = ../../AllCityName; sourceTree = "<group>"; };
+		FC3F4DEC1CFE92A8001435DA /* PickOverseaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PickOverseaViewController.h; path = ../../PickOverseaViewController.h; sourceTree = "<group>"; };
+		FC3F4DED1CFE92A8001435DA /* PickOverseaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PickOverseaViewController.m; path = ../../PickOverseaViewController.m; sourceTree = "<group>"; };
+		FC3F4DEF1CFE93AE001435DA /* outLandCityGroup.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = outLandCityGroup.plist; path = ../../outLandCityGroup.plist; sourceTree = "<group>"; };
+		FC3F4DF11CFED430001435DA /* LocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LocationManager.h; path = ../../LocationManager.h; sourceTree = "<group>"; };
+		FC3F4DF21CFED430001435DA /* LocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LocationManager.m; path = ../../LocationManager.m; sourceTree = "<group>"; };
+		FC3F4DF41CFEDE08001435DA /* AllCityID */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = AllCityID; path = ../../AllCityID; sourceTree = "<group>"; };
+		FC85C9971CFD1BD80026F436 /* HotCityCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HotCityCell.h; path = ../../HotCityCell.h; sourceTree = "<group>"; };
+		FC85C9981CFD1BD80026F436 /* HotCityCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HotCityCell.m; path = ../../HotCityCell.m; sourceTree = "<group>"; };
+		FC85C99A1CFD1ED30026F436 /* hotcityCode.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = hotcityCode.plist; path = ../../hotcityCode.plist; sourceTree = "<group>"; };
+		FC85C99C1CFD20CE0026F436 /* HotCityMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HotCityMode.h; path = ../../HotCityMode.h; sourceTree = "<group>"; };
+		FC85C99D1CFD20CE0026F436 /* HotCityMode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HotCityMode.m; path = ../../HotCityMode.m; sourceTree = "<group>"; };
+		FC85C99F1CFD40A30026F436 /* YLYTableViewIndexView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YLYTableViewIndexView.h; path = ../../YLYTableViewIndexView.h; sourceTree = "<group>"; };
+		FC85C9A01CFD40A30026F436 /* YLYTableViewIndexView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YLYTableViewIndexView.m; path = ../../YLYTableViewIndexView.m; sourceTree = "<group>"; };
+		FCA6AD261CFD80C200F240CE /* SearchCityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SearchCityViewController.h; path = ../../SearchCityViewController.h; sourceTree = "<group>"; };
+		FCA6AD271CFD80C200F240CE /* SearchCityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SearchCityViewController.m; path = ../../SearchCityViewController.m; sourceTree = "<group>"; };
+		FCA6AD291CFD82AA00F240CE /* XMSearchBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XMSearchBar.h; path = ../../XMSearchBar.h; sourceTree = "<group>"; };
+		FCA6AD2A1CFD82AA00F240CE /* XMSearchBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XMSearchBar.m; path = ../../XMSearchBar.m; sourceTree = "<group>"; };
 		FCFAC4661CFBD8C600642DA0 /* 城市选择Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "城市选择Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCFAC46A1CFBD8C600642DA0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FCFAC46C1CFBD8C600642DA0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +102,45 @@
 		FCFAC48A1CFBD8C600642DA0 /* 城市选择DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "城市选择DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCFAC48E1CFBD8C600642DA0 /* ____DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____DemoUITests.m"; sourceTree = "<group>"; };
 		FCFAC4901CFBD8C600642DA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCFAC49C1CFBDB9D00642DA0 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseViewController.h; path = ../../BaseViewController.h; sourceTree = "<group>"; };
+		FCFAC49D1CFBDB9D00642DA0 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseViewController.m; path = ../../BaseViewController.m; sourceTree = "<group>"; };
+		FCFAC49F1CFBE22500642DA0 /* PickCityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PickCityViewController.h; path = ../../PickCityViewController.h; sourceTree = "<group>"; };
+		FCFAC4A01CFBE22500642DA0 /* PickCityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PickCityViewController.m; path = ../../PickCityViewController.m; sourceTree = "<group>"; };
+		FCFAC4A21CFC09BB00642DA0 /* PickChinaCityController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PickChinaCityController.h; path = ../../PickChinaCityController.h; sourceTree = "<group>"; };
+		FCFAC4A31CFC09BB00642DA0 /* PickChinaCityController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PickChinaCityController.m; path = ../../PickChinaCityController.m; sourceTree = "<group>"; };
+		FCFAC4A51CFC0CA400642DA0 /* inLandCityGroup.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = inLandCityGroup.plist; path = ../../inLandCityGroup.plist; sourceTree = "<group>"; };
+		FCFAC4C71CFC211800642DA0 /* CityIndexCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CityIndexCell.h; path = ../../CityIndexCell.h; sourceTree = "<group>"; };
+		FCFAC4C81CFC211800642DA0 /* CityIndexCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CityIndexCell.m; path = ../../CityIndexCell.m; sourceTree = "<group>"; };
+		FCFAC4CB1CFC247800642DA0 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCFAC4CC1CFC247800642DA0 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		FCFAC4CD1CFC247800642DA0 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		FCFAC4CE1CFC247800642DA0 /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		FCFAC4CF1CFC247800642DA0 /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		FCFAC4D01CFC247800642DA0 /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		FCFAC4D11CFC247800642DA0 /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		FCFAC4D21CFC247800642DA0 /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		FCFAC4D31CFC247800642DA0 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		FCFAC4D41CFC247800642DA0 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		FCFAC4D51CFC247800642DA0 /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		FCFAC4D61CFC247800642DA0 /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		FCFAC4D71CFC247800642DA0 /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		FCFAC4D81CFC247800642DA0 /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		FCFAC4D91CFC247800642DA0 /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		FCFAC4DA1CFC247800642DA0 /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		FCFAC4DB1CFC247800642DA0 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		FCFAC4DC1CFC247800642DA0 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		FCFAC4DD1CFC247800642DA0 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		FCFAC4DE1CFC247800642DA0 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		FCFAC4DF1CFC247800642DA0 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		FCFAC4E01CFC247800642DA0 /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		FCFAC4E11CFC247800642DA0 /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		FCFAC4E21CFC247800642DA0 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		FCFAC4E31CFC247800642DA0 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		FCFAC4E41CFC247800642DA0 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		FCFAC4F01CFC2F2000642DA0 /* sectionHeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = sectionHeadView.h; path = ../../sectionHeadView.h; sourceTree = "<group>"; };
+		FCFAC4F11CFC2F2000642DA0 /* sectionHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = sectionHeadView.m; path = ../../sectionHeadView.m; sourceTree = "<group>"; };
+		FCFAC4F31CFC35F400642DA0 /* LocationCityCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LocationCityCell.h; path = ../../LocationCityCell.h; sourceTree = "<group>"; };
+		FCFAC4F41CFC35F400642DA0 /* LocationCityCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LocationCityCell.m; path = ../../LocationCityCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +148,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60B6400867D349DB1C2072E7 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +169,93 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B0DFC834D8FE33728B690F0F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E8D6CB71E9FEB6A12A6160BF /* Pods.debug.xcconfig */,
+				018387DFDFD3687FE61BFEFD /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C359F1648CCC41508044507A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D0DB40F0BE9892F1C79EC984 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FC838DCA1CFFBF0A00D7C3D3 /* SearchCity */ = {
+			isa = PBXGroup;
+			children = (
+				FC838DCE1CFFBF4300D7C3D3 /* Resource */,
+				FC838DCB1CFFBF0A00D7C3D3 /* Controller */,
+				FC838DCC1CFFBF0A00D7C3D3 /* Model */,
+				FC838DCD1CFFBF0A00D7C3D3 /* View */,
+			);
+			path = SearchCity;
+			sourceTree = "<group>";
+		};
+		FC838DCB1CFFBF0A00D7C3D3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FCFAC49F1CFBE22500642DA0 /* PickCityViewController.h */,
+				FCFAC4A01CFBE22500642DA0 /* PickCityViewController.m */,
+				FC3F4DEC1CFE92A8001435DA /* PickOverseaViewController.h */,
+				FC3F4DED1CFE92A8001435DA /* PickOverseaViewController.m */,
+				FCFAC4A21CFC09BB00642DA0 /* PickChinaCityController.h */,
+				FCFAC4A31CFC09BB00642DA0 /* PickChinaCityController.m */,
+				FCFAC49C1CFBDB9D00642DA0 /* BaseViewController.h */,
+				FCFAC49D1CFBDB9D00642DA0 /* BaseViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FC838DCC1CFFBF0A00D7C3D3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FC85C99C1CFD20CE0026F436 /* HotCityMode.h */,
+				FC85C99D1CFD20CE0026F436 /* HotCityMode.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FC838DCD1CFFBF0A00D7C3D3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FCFAC4C71CFC211800642DA0 /* CityIndexCell.h */,
+				FCFAC4C81CFC211800642DA0 /* CityIndexCell.m */,
+				FCFAC4F01CFC2F2000642DA0 /* sectionHeadView.h */,
+				FCFAC4F11CFC2F2000642DA0 /* sectionHeadView.m */,
+				FCFAC4F31CFC35F400642DA0 /* LocationCityCell.h */,
+				FCFAC4F41CFC35F400642DA0 /* LocationCityCell.m */,
+				FC85C9971CFD1BD80026F436 /* HotCityCell.h */,
+				FC85C9981CFD1BD80026F436 /* HotCityCell.m */,
+				FC85C99F1CFD40A30026F436 /* YLYTableViewIndexView.h */,
+				FC85C9A01CFD40A30026F436 /* YLYTableViewIndexView.m */,
+				FCA6AD261CFD80C200F240CE /* SearchCityViewController.h */,
+				FCA6AD271CFD80C200F240CE /* SearchCityViewController.m */,
+				FCA6AD291CFD82AA00F240CE /* XMSearchBar.h */,
+				FCA6AD2A1CFD82AA00F240CE /* XMSearchBar.m */,
+				FC3F4DF11CFED430001435DA /* LocationManager.h */,
+				FC3F4DF21CFED430001435DA /* LocationManager.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FC838DCE1CFFBF4300D7C3D3 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				FC3F4DF41CFEDE08001435DA /* AllCityID */,
+				FC3F4DEF1CFE93AE001435DA /* outLandCityGroup.plist */,
+				FC3F4DAE1CFE6B2F001435DA /* AllCityName */,
+				FC85C99A1CFD1ED30026F436 /* hotcityCode.plist */,
+				FCFAC4A51CFC0CA400642DA0 /* inLandCityGroup.plist */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
 		FCFAC45D1CFBD8C600642DA0 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +263,8 @@
 				FCFAC4821CFBD8C600642DA0 /* 城市选择DemoTests */,
 				FCFAC48D1CFBD8C600642DA0 /* 城市选择DemoUITests */,
 				FCFAC4671CFBD8C600642DA0 /* Products */,
+				B0DFC834D8FE33728B690F0F /* Pods */,
+				C359F1648CCC41508044507A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +281,8 @@
 		FCFAC4681CFBD8C600642DA0 /* 城市选择Demo */ = {
 			isa = PBXGroup;
 			children = (
+				FC838DCA1CFFBF0A00D7C3D3 /* SearchCity */,
+				FCFAC4CA1CFC247800642DA0 /* Masonry */,
 				FCFAC46C1CFBD8C600642DA0 /* AppDelegate.h */,
 				FCFAC46D1CFBD8C600642DA0 /* AppDelegate.m */,
 				FCFAC46F1CFBD8C600642DA0 /* ViewController.h */,
@@ -140,6 +322,39 @@
 			path = "城市选择DemoUITests";
 			sourceTree = "<group>";
 		};
+		FCFAC4CA1CFC247800642DA0 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				FCFAC4CB1CFC247800642DA0 /* Info.plist */,
+				FCFAC4CC1CFC247800642DA0 /* MASCompositeConstraint.h */,
+				FCFAC4CD1CFC247800642DA0 /* MASCompositeConstraint.m */,
+				FCFAC4CE1CFC247800642DA0 /* MASConstraint+Private.h */,
+				FCFAC4CF1CFC247800642DA0 /* MASConstraint.h */,
+				FCFAC4D01CFC247800642DA0 /* MASConstraint.m */,
+				FCFAC4D11CFC247800642DA0 /* MASConstraintMaker.h */,
+				FCFAC4D21CFC247800642DA0 /* MASConstraintMaker.m */,
+				FCFAC4D31CFC247800642DA0 /* MASLayoutConstraint.h */,
+				FCFAC4D41CFC247800642DA0 /* MASLayoutConstraint.m */,
+				FCFAC4D51CFC247800642DA0 /* Masonry.h */,
+				FCFAC4D61CFC247800642DA0 /* MASUtilities.h */,
+				FCFAC4D71CFC247800642DA0 /* MASViewAttribute.h */,
+				FCFAC4D81CFC247800642DA0 /* MASViewAttribute.m */,
+				FCFAC4D91CFC247800642DA0 /* MASViewConstraint.h */,
+				FCFAC4DA1CFC247800642DA0 /* MASViewConstraint.m */,
+				FCFAC4DB1CFC247800642DA0 /* NSArray+MASAdditions.h */,
+				FCFAC4DC1CFC247800642DA0 /* NSArray+MASAdditions.m */,
+				FCFAC4DD1CFC247800642DA0 /* NSArray+MASShorthandAdditions.h */,
+				FCFAC4DE1CFC247800642DA0 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				FCFAC4DF1CFC247800642DA0 /* NSLayoutConstraint+MASDebugAdditions.m */,
+				FCFAC4E01CFC247800642DA0 /* View+MASAdditions.h */,
+				FCFAC4E11CFC247800642DA0 /* View+MASAdditions.m */,
+				FCFAC4E21CFC247800642DA0 /* View+MASShorthandAdditions.h */,
+				FCFAC4E31CFC247800642DA0 /* ViewController+MASAdditions.h */,
+				FCFAC4E41CFC247800642DA0 /* ViewController+MASAdditions.m */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +362,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FCFAC4931CFBD8C600642DA0 /* Build configuration list for PBXNativeTarget "城市选择Demo" */;
 			buildPhases = (
+				9EF2D6365ACE612B6C92B1B3 /* Check Pods Manifest.lock */,
 				FCFAC4621CFBD8C600642DA0 /* Sources */,
 				FCFAC4631CFBD8C600642DA0 /* Frameworks */,
 				FCFAC4641CFBD8C600642DA0 /* Resources */,
+				F57C44D5A81730B26006F458 /* Embed Pods Frameworks */,
+				D98B35725E5628C979E23578 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,6 +425,7 @@
 				TargetAttributes = {
 					FCFAC4651CFBD8C600642DA0 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 3639QL8CD6;
 					};
 					FCFAC47E1CFBD8C600642DA0 = {
 						CreatedOnToolsVersion = 7.2;
@@ -243,9 +462,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC3F4DF51CFEDE08001435DA /* AllCityID in Resources */,
 				FCFAC4791CFBD8C600642DA0 /* LaunchScreen.storyboard in Resources */,
 				FCFAC4761CFBD8C600642DA0 /* Assets.xcassets in Resources */,
 				FCFAC4741CFBD8C600642DA0 /* Main.storyboard in Resources */,
+				FCFAC4E51CFC247800642DA0 /* Info.plist in Resources */,
+				FC85C99B1CFD1ED30026F436 /* hotcityCode.plist in Resources */,
+				FC3F4DF01CFE93AE001435DA /* outLandCityGroup.plist in Resources */,
+				FC3F4DAF1CFE6B2F001435DA /* AllCityName in Resources */,
+				FCFAC4A61CFC0CA400642DA0 /* inLandCityGroup.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,14 +490,85 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9EF2D6365ACE612B6C92B1B3 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D98B35725E5628C979E23578 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F57C44D5A81730B26006F458 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FCFAC4621CFBD8C600642DA0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCA6AD2B1CFD82AA00F240CE /* XMSearchBar.m in Sources */,
+				FCFAC4EC1CFC247800642DA0 /* NSArray+MASAdditions.m in Sources */,
+				FCFAC4EB1CFC247800642DA0 /* MASViewConstraint.m in Sources */,
 				FCFAC4711CFBD8C600642DA0 /* ViewController.m in Sources */,
+				FCFAC4E81CFC247800642DA0 /* MASConstraintMaker.m in Sources */,
+				FC3F4DEE1CFE92A8001435DA /* PickOverseaViewController.m in Sources */,
+				FCFAC4EE1CFC247800642DA0 /* View+MASAdditions.m in Sources */,
+				FCFAC49E1CFBDB9D00642DA0 /* BaseViewController.m in Sources */,
+				FC85C99E1CFD20CE0026F436 /* HotCityMode.m in Sources */,
+				FCFAC4F21CFC2F2000642DA0 /* sectionHeadView.m in Sources */,
+				FCFAC4F51CFC35F400642DA0 /* LocationCityCell.m in Sources */,
+				FCFAC4E71CFC247800642DA0 /* MASConstraint.m in Sources */,
+				FC3F4DF31CFED430001435DA /* LocationManager.m in Sources */,
 				FCFAC46E1CFBD8C600642DA0 /* AppDelegate.m in Sources */,
+				FCFAC4EA1CFC247800642DA0 /* MASViewAttribute.m in Sources */,
+				FCFAC4ED1CFC247800642DA0 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				FC85C9991CFD1BD80026F436 /* HotCityCell.m in Sources */,
+				FC85C9A11CFD40A30026F436 /* YLYTableViewIndexView.m in Sources */,
+				FCA6AD281CFD80C200F240CE /* SearchCityViewController.m in Sources */,
+				FCFAC4C91CFC211800642DA0 /* CityIndexCell.m in Sources */,
+				FCFAC4E61CFC247800642DA0 /* MASCompositeConstraint.m in Sources */,
+				FCFAC4E91CFC247800642DA0 /* MASLayoutConstraint.m in Sources */,
+				FCFAC4A41CFC09BB00642DA0 /* PickChinaCityController.m in Sources */,
 				FCFAC46B1CFBD8C600642DA0 /* main.m in Sources */,
+				FCFAC4EF1CFC247800642DA0 /* ViewController+MASAdditions.m in Sources */,
+				FCFAC4A11CFBE22500642DA0 /* PickCityViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,23 +705,33 @@
 		};
 		FCFAC4941CFBD8C600642DA0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8D6CB71E9FEB6A12A6160BF /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "城市选择Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kenfor.----Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
 		FCFAC4951CFBD8C600642DA0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 018387DFDFD3687FE61BFEFD /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "城市选择Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kenfor.----Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -496,6 +802,7 @@
 				FCFAC4951CFBD8C600642DA0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FCFAC4961CFBD8C600642DA0 /* Build configuration list for PBXNativeTarget "城市选择DemoTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +811,7 @@
 				FCFAC4981CFBD8C600642DA0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FCFAC4991CFBD8C600642DA0 /* Build configuration list for PBXNativeTarget "城市选择DemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +820,7 @@
 				FCFAC49B1CFBD8C600642DA0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
